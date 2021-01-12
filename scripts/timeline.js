@@ -26,8 +26,9 @@ const timeline = [
     { t: 44.65, key: 'heart' },
     // heart - once
     { t: 45.60, key: 'heart' },
-    // fan - once
+    // fan - loop
     { t: 50.30, key: 'fan' },
+    { t: 55.00, key: 'fan' },
     // wink - once
     { t: 55.25, key: 'wink' },
     // turn left - once
