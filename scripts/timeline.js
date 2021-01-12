@@ -31,19 +31,23 @@ const timeline = [
     { t: 55.00, key: 'fan' },
     // wink - once
     { t: 55.25, key: 'wink' },
-    // turn left - once
-    { t: 57.00, key: 'turnleft' },
-    // turn right - once
-    { t: 58.50, key: 'turnright' },
+    // transition - once
+    { t: 57.00, key: 'transition' },
+    { t: 58.50, key: 'transition' },
     // groovy - loop
     { t: 60.23, key: 'groovy' },
     { t: 67.00, key: 'groovy' },
-    // disco ball - loop
-    { t: 77.80, key: 'discoball' },
-    { t: 90.90, key: 'discoball' },
-    // disco ball - loop
-    { t: 77.80, key: 'discoball' },
-    { t: 90.90, key: 'discoball' },
+    // disco - loop
+    { t: 77.80, key: 'disco' },
+    { t: 90.90, key: 'disco' },
+    // splash- loop
+    { t: 95.90, key: 'splash' },
+    { t: 101.50, key: 'splash' },
+    // lightleak - loop
+    { t: 102.60, key: 'lightleak' },
+    { t: 107.85, key: 'lightleak' },
+    // final hear - once
+    { t: 110.15, key: 'finalheart' },
 ];
 
 var index = 0;
