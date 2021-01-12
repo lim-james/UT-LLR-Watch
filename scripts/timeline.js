@@ -31,9 +31,9 @@ const timeline = [
     // wink - once
     { t: 55.25, key: 'wink' },
     // turn left - once
-    { t: 57.00, key: 'turn left' },
-    // turn right - right
-    { t: 58.50, key: 'turn right' },
+    { t: 57.00, key: 'turnleft' },
+    // turn right - once
+    { t: 58.50, key: 'turnright' },
     // groovy - loop
     { t: 60.23, key: 'groovy' },
     { t: 67.00, key: 'groovy' },
