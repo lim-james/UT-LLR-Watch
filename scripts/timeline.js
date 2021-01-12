@@ -7,10 +7,10 @@ const timeline = [
     { t: 9.25, key: 'shoesparkle' },
     // annkle sparkle - once
     { t: 9.55, key: 'anklesparkle' },
-    { t: 10.64, key: 'anklesparkle' },
-    // body double - loop
+    // { t: 10.64, key: 'anklesparkle' },
+    // body double - once
     { t: 16.10, key: 'bodydouble' },
-    { t: 17.16, key: 'bodydouble' },
+    // { t: 17.16, key: 'bodydouble' },
     // sunglass flower - loop
     { t: 12.20, key: 'sunglassflower' },
     { t: 22.30, key: 'sunglassflower' },
@@ -37,6 +37,9 @@ const timeline = [
     // groovy - loop
     { t: 60.23, key: 'groovy' },
     { t: 67.00, key: 'groovy' },
+    // disco ball - loop
+    { t: 77.80, key: 'discoball' },
+    { t: 90.90, key: 'discoball' },
     // disco ball - loop
     { t: 77.80, key: 'discoball' },
     { t: 90.90, key: 'discoball' },
