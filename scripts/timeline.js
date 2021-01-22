@@ -52,12 +52,17 @@ const timeline = [
 
 var index = 0;
 
-Patches.outputs.getScalar('et').then(patch => {
-    patch.monitor().subscribe(event => {
-        const et = event.newValue;
-        while (et >= timeline[index].t)  {
-            Patches.inputs.setPulse(timeline[index].key, Reactive.once());
-            ++index;
-        }
+(async () => {
+    const offset = await Patches.outputs.getScalar('offset');
+
+    Patches.outputs.getScalar('et').then(patch => {
+        patch.monitor().subscribe(event => {
+            const et = event.newValue + offset.pinLastValue();
+            while (et >= timeline[index].t)  {
+                Patches.inputs.setPulse(timeline[index].key, Reactive.once());
+                ++index;
+            }
+        });
     });
-});
+
+})();
